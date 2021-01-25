@@ -26,6 +26,8 @@ yarn pbjs \
   "$COSMOS_PROTO_DIR/crypto/secp256k1/keys.proto" \
   "$COSMOS_PROTO_DIR/tx/v1beta1/tx.proto" \
   "$COSMOS_PROTO_DIR/tx/signing/v1beta1/signing.proto" \
+  "$COSMOS_PROTO_DIR/gov/v1beta1/gov.proto" \
+  "$COSMOS_PROTO_DIR/gov/v1beta1/tx.proto" \
   "$TENDERMINT_PROTO_DIR/crypto/keys.proto"
 
 # Work around https://github.com/protobufjs/protobuf.js/issues/1477
